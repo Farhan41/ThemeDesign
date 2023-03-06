@@ -1,0 +1,80 @@
+body {
+    font-family     : 'Nunito', sans-serif;
+    line-height     : 26px;
+    color           : #2d2c2c;
+    font-weight     : 400;
+    background-color: #e3e8ee;
+}
+
+a{
+    text-decoration : none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight     : 700;
+}
+
+
+.carousel-inner h3{
+    font-size       : 28px;
+    font-weight     : 700;
+}
+
+p {
+    font-size       : 16px;
+} 
+
+.text-success {
+    color: #1fafa5 !important;
+}
+
+.f-20 {
+    font-size       : 20px;
+}
+
+.bg-login{
+    position        : relative;
+}
+
+.auth-contain {
+    position        : absolute;
+    top             : 50%;
+    transform       : translateY(-50%);
+    max-width       : 500px;
+    margin          : 0 auto;
+    left            : 0;
+    right           : 0;
+}
+
+.auth-box {
+    padding         : 50px 114px;
+}
+
+.custom-form .form-control {
+	padding         : 10px 15px;
+}
+
+.form-floating-custom .form-control {
+	border-radius   : 0;
+}
+
+.form-control:focus {
+	box-shadow          : none; 
+}
+
+.account-pages {
+	height          : 100vh;
+	align-items     : center;
+	display         : flex;
+}
+
+
+/* Media-Query */
+
+@media (max-width:575px){
+    .auth-box {
+        padding    : 50px 50px;
+    }
+    
+}
+
