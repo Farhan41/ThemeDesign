@@ -14,6 +14,24 @@ h1, h2, h3, h4, h5, h6 {
     font-weight     : 700;
 }
 
+.avatar-title {
+	align-items: center;
+	display: flex;
+	font-weight: 500;
+	height: 100%;
+	justify-content: center;
+	width: 100%;
+}
+
+.avatar-md {
+	height: 4.5rem;
+	width: 4.5rem;
+}
+
+.bg-soft-success {
+	background-color: rgba(31, 175, 165, 0.1) !important;
+}
+
 
 .carousel-inner h3{
     font-size       : 28px;
@@ -50,6 +68,30 @@ p {
     padding         : 50px 114px;
 }
 
+.auth-icon {
+	position: relative;
+}
+
+.auth-icon .form-floating-icon {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	width: 56px;
+	color: #74788d;
+}
+
+.form-floating-custom {
+	font-size      : 14px;
+}
+
+.auth-icon > label {
+	left: 38px;
+}
+
 .custom-form .form-control {
 	padding         : 10px 15px;
 }
@@ -59,7 +101,11 @@ p {
 }
 
 .form-control:focus {
-	box-shadow          : none; 
+	box-shadow      : none; 
+}
+
+.auth-icon > .form-control, .auth-icon > .form-select {
+    padding-left: 48px;
 }
 
 .account-pages {
@@ -69,51 +115,54 @@ p {
 }
 
 .fa-eye{
-    font-size          : 12px;
-    color              : #a1a1a1 ;
+    font-size        : 12px;
+    color            : #a1a1a1 ;
 }
 
-.form-floating-custom {
-	font-size: 14px;
+.btn {
+	padding          : 0.7rem 1.8rem;
+	font-size        : 16px;
+	font-weight      : 500;
+	transition       : all 0.5s;
+	border-radius    : 0px;
 }
-
 
 
 /* Media-Query */
 
 @media (min-width:768px) and (max-width:991px){
 	.auth-box {
-        padding    : 50px 50px;
+        padding      : 50px 50px;
     }
 
     .carousel-inner h3 {
-        font-size: 19px;
+        font-size    : 19px;
     }
 
     .f-20 {
-        font-size: 13px;
-        margin-top:0;
+        font-size    : 13px;
+        margin-top   :0;
         margin-bottom: 0;
     }
 
     .auth-contain {
-        top: 75%;
+        top          : 75%;
     }
 }
 
 @media (min-width:576px) and (max-width:767px){
 	.auth-box {
-        padding    : 50px 50px;
+        padding     : 50px 50px;
     }
 
     .carousel-inner h3 {
-        font-size: 19px;
+        font-size   : 19px;
     }
 
     .f-20 {
-        font-size: 13px;
-        margin-top:0;
-        margin-bottom: 0;
+        font-size   : 13px;
+        margin-top  :0;
+     margin-bottom  : 0;
     }
 
     .auth-contain {
@@ -127,17 +176,17 @@ p {
     }
 
     .carousel-inner h3 {
-        font-size: 19px;
+        font-size  : 19px;
     }
 
     .f-20 {
-        font-size: 13px;
-        margin-top:0;
-        margin-bottom: 0;
+        font-size  : 13px;
+        margin-top :0;
+    margin-bottom  : 0;
     }
 
     .auth-contain {
-        top: 75%;
+        top        : 75%;
     }
     
 }
