@@ -112,17 +112,17 @@ p {
     }
 
     .carousel-inner h3 {
-        font-size    : 19px;
+        font-size: 38px;
     }
 
     .f-20 {
-        font-size    : 13px;
-        margin-top   :0;
+        font-size: 21px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
     .auth-contain {
-        top          : 75%;
+        top: 68%;
     }
 }
 
@@ -132,17 +132,17 @@ p {
     }
 
     .carousel-inner h3 {
-        font-size   : 19px;
+        font-size: 28px;
     }
 
     .f-20 {
-        font-size   : 13px;
-        margin-top  :0;
-     margin-bottom  : 0;
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .auth-contain {
-        top: 75%;
+        top: 69%;
     }
 }
 
@@ -162,7 +162,7 @@ p {
     }
 
     .auth-contain {
-        top        : 75%;
+        top: 67%;
     }
     
 }

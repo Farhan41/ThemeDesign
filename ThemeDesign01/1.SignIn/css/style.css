@@ -87,17 +87,17 @@ p {
     }
 
     .carousel-inner h3 {
-        font-size: 19px;
+        font-size: 51px;
     }
 
     .f-20 {
-        font-size: 13px;
-        margin-top:0;
+        font-size: 25px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
     .auth-contain {
-        top: 75%;
+        top: 70%;
     }
 }
 
@@ -107,12 +107,12 @@ p {
     }
 
     .carousel-inner h3 {
-        font-size: 19px;
+        font-size: 29px;
     }
 
     .f-20 {
-        font-size: 13px;
-        margin-top:0;
+        font-size: 19px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
