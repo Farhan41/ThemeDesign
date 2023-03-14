@@ -41,8 +41,8 @@ p {
 }
 
 
-.text-success {
-	color              : #1fafa5 !important;
+.text-success { 
+    color           : #0F6D96 !important;   
 }
 
 .fa-heart{
@@ -68,23 +68,28 @@ p {
 }
 
 .bg-overlay-2 {
-	background         : rgba(51, 51, 51, 0.8);
-	width              : 100%;
-	height             : 100%;
-	position           : absolute;
-	right              : 0;
-	bottom             : 0;
-	left               : 0px;
-	top                : 0px;
+	background: rgba(32, 20, 20, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0px;
+	top: 0px;
+}
+
+.text-white-50 {
+	--bs-text-opacity: 1;
+	color: rgba(255,255,255) !important;
 }
 
 .btn-success {
-	background         : #1fafa5;
-	border-color       : #1fafa5 !important;
-}
+	background: #0A4A66 !important;
+	border-color: #0A4A66 !important;
+} 
 
 .btn-success:hover{
-    background         : #1c9e95;
+    background      :  #012535 !important;
 }
 
 .btn {
